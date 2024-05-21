@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partner with Us</title>
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <script src="navbar.js"></script>
+    <script src="openNav.js"></script>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #fafafa;
+            margin: 0;
+            padding-top:60px;
+        }
+        .hero {
+            position:relative;
+            background-image: url('assets/partner-banner1.jpeg');
+            background-size:cover;
+            background-position: center;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .hero-overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 50px 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .hero h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 5px;
+            color: #000;
+        }
+        .content {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        .content .underline {
+            width: 60px;
+            height: 4px;
+            background-color: #ffcc00;
+            margin: 0 auto 20px auto;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+        }
+        .tab {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 12px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+        .info {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .info h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .info p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        .submit-btn {
+            background-color: #ffcc00;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        form {
+            text-align: left;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
+     <script src="footer.js"></script>
+     <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <nav-bar></nav-bar>
+    <div class="hero">
+        <div class="hero-overlay">
+            <h1>Partner with Us</h1>
+            <p>Contact us to explore partnership opportunities</p>
+            <button>Contact Now</button>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>What is in store for you</h2>
+        <div class="underline"></div>
+
+        <div class="info">
+            <h2>Overview</h2>
+            <p>Becoming a partner means joining a network of like-minded businesses focused on delivering top-notch services. Collaborate with us to reach new heights.</p>
+        </div>
+        
+        <div class="info">
+            <h2>Benefits</h2>
+            <p>As a partner, you'll enjoy increased visibility, shared marketing efforts, and access to our customer base. We believe in mutually beneficial relationships.</p>
+        </div>
+        
+        <div class="info">
+            <h2>How to Join</h2>
+            <p>Contact us through the form below to start the conversation. Our team will get in touch to discuss the potential partnership in detail.</p>
+        </div>
+
+        <form action="submit-partner-form" method="post" class="info">
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+    <footer-code></footer-code>
+</body>
+</html>

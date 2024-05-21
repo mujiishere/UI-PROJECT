@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tarif.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>KK-Rentals</title>
+    <link rel="icon" href="assets/companyLogo.png" type="image">
+    <script src="navbar.js"></script>
+    <script src="openNav.js"></script>
+    <script src="footer.js"></script>
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+        <nav-bar></nav-bar>  
+        <div id="first-content-1">
+            <div id="first-part">
+                <div class="search-container">
+                  <span id="header-form">
+                  <h2>Search your next ride</h2>
+                </span>
+                <form id="search-form">
+                    <div class="form-group">
+                      <span id="pickup">
+                      <label for="pickup-date">Pickup</label>
+                      <input type="date" id="pickup-date" >
+                      <select  name="pickup-time" id="pickup" style="appearance: none; color: gray;">
+                          <option value="" disabled selected>Time
+                          <option value="time1">5:00 AM<hr>
+                          <option value="time2">6:00 AM<hr>
+                          <option value="time3">7:00 AM<hr>
+                          <option value="time4">8:00 AM<hr>
+                          <option value="time5">9:00 AM<hr>
+                          <option value="time6">10:00 AM<hr>
+                          <option value="time7">11:00 AM<hr>
+                          <option value="time8">12:00 PM<hr>
+                          <option value="time10">1:00 PM<hr>
+                          <option value="time11">2:00 PM<hr>
+                          <option value="time12">3:00 PM<hr>
+                          <option value="time13">4:00 PM<hr>
+                          <option value="time14">5:00 PM<hr>
+                          <option value="time15">6:00 PM<hr>
+              
+                          
+                      </select>
+                      </span>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                      <span id="dropoff">
+                      <label for="dropoff-date">Dropoff</label>
+                      <input type="date" id="dropoff-date">
+                      <select name="dropoff-time" id="dropoff-time"  style="appearance: none; color: gray;">
+                          <option value="" disabled selected>Time
+                          <option value="time1">5:00 AM<hr>
+                          <option value="time2">6:00 AM<hr>
+                          <option value="time3">7:00 AM<hr>
+                          <option value="time4">8:00 AM<hr>
+                          <option value="time5">9:00 AM<hr>
+                          <option value="time6">10:00 AM<hr>
+                          <option value="time7">11:00 AM<hr>
+                          <option value="time8">12:00 PM<hr>
+                          <option value="time10">1:00 PM<hr>
+                          <option value="time11">2:00 PM<hr>
+                          <option value="time12">3:00 PM<hr>
+                          <option value="time13">4:00 PM<hr>
+                          <option value="time14">5:00 PM<hr>
+                          <option value="time15">6:00 PM<hr>
+                      </select>
+                      </span>
+                    </div>
+                    <br>
+                    <button type="submit">Search</button>
+                  </form>
+                </div>
+                </div>
+                <script>
+                  const images = ["images/bike.jpeg", "images/bike2.jpeg", "images/bike3.jpg","images/bike4.jpg"]; // List of image paths
+              const interval = 5000; 
+              
+              let currentIndex = 0;
+              const carousel = document.getElementById("first-content-1");
+              
+              function changeBackground() {
+              carousel.style.backgroundImage = `url('${images[currentIndex]}')`;
+              currentIndex = (currentIndex + 1) % images.length;
+              }
+              changeBackground();
+              setInterval(changeBackground, interval);
+              
+              </script>
+        </div>
+        <div class = "kkkk"id="content-1">
+            <h3 style="padding: 5px; text-align: center; font-size: 60px; font-family:Arial, Helvetica, sans-serif;">Image Gallery</h3>
+            <div class="gallery">
+                <img src="images/b2.jpg" alt="ladakh and bullet">
+                <img src="images/xpulse.jpg" alt="a waterfall and many rocks">
+                <img src="images/couples.jpg" alt="a house on a mountain">
+                <img src="images/activa.jpg" alt="sime pink flowers">
+                <img src="images/bullet.avif" alt="big rocks with some trees">
+                <img src="images/bike.jpg" alt="bulet">
+                <img src="images/ns.jpg" alt="a cool landscape and bike">
+                <img src="images/s.jpg" alt="At Riding">
+                <img src="images/ladakh.jpg" alt="a great view of the ladakh">
+              </div>
+        </div>
+    
+        
+        
+        <div class="kkkk" id="content-2">
+            <div class="slide-container swiper">
+                <div class="heading">
+                    <h1>What our users have to <span class="highlight">say</span></h1>
+                </div>
+                <div class="slide-content">
+                    <div class="card-wrapper  swiper-wrapper">
+                        <div class="card  swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/vyazha.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                               <h2 class="name">Akash</h2>
+                               <p class="description">Very nice service. Very hardowrking Team. I had to wait very little time to recieve the vehicle. Nammade piller aayond pinne set work aayirikkuvallo cheyyunne. Iniyum ibide varum, bike rent cheyyum. 10/10</p>
+        
+                               <button class="button">View More</button>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/profile 1.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                               <h2 class="name">Arun</h2>
+                               <p class="description">TThe variety of bikes available was impressive. The rates were reasonable, and the return process was hassle-free. I found the perfect one for my adventure. Will definitely rent again!</p>
+        
+                               <button class="button">View More</button>
+                            </div>
+                        </div>
+        
+                        <div class="card  swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/profile3.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                               <h2 class="name">Haaland</h2>
+                               <p class="description">The variety of bikes available was impressive. The rates were reasonable, and the return process was hassle-free. I found the perfect one for my adventure. Will definitely rent again!</p>
+        
+                               <button class="button">View More</button>
+                            </div>
+                        </div>
+        
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/navneeth1.jpg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                               <h2 class="name">Navaneeth</h2>
+                               <p class="description">I had an issue with the gears on my bike, and they swapped it out immediately with no fuss. Ente friends pwoli people anu. Please give good marks..Mothathil Pwoli service. I like it!</p>
+        
+                               <button class="button">View More</button>
+                            </div>
+                        </div>
+        
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/profile5.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                               <h2 class="name">Eva</h2>
+                               <p class="description">Great bikes and great service! The only downside was that the helmet provided wasn't the most comfortable. But overall, a fantastic way to see the city. Very pleased,Overall nice experience</p>
+        
+                               <button class="button">View More</button>
+                            </div>
+                        </div>
+        
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/profile6.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                               <h2 class="name">Patrick</h2>
+                               <p class="description">Convenient location and excellent bikes. The rental process was quick, and the staff gave me great tips on scenic routes. The bike was well-maintained and rode perfectly. Awesome service</p>
+        
+                               <button class="button">View More</button>
+                            </div>
+                        </div>
+        
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/profile7.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                               <h2 class="name">venu</h2>
+                               <p class="description">Fantastic experience from start to finish! The staff were incredibly helpful, and the bikes were top-notch. I had a great time exploring the area on two wheels.Will rent again</p>
+        
+                               <button class="button">View More</button>
+                            </div>
+                        </div>
+        
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/profile8.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                               <h2 class="name">Ashik</h2>
+                               <p class="description">Superb service! The staff provided me with a map and recommended some beautiful cycling routes. The bike was comfortable and easy to handle. Will rent again for sure. Thanks!</p>
+        
+                               <button class="button">View More</button>
+                            </div>
+                        </div>
+        
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="images/profile9.jpeg" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                               <h2 class="name">Vishnupriya</h2>
+                               <p class="description">Excellent bike rental company! The bikes are well-maintained and the prices are reasonable. The team was very friendly and accommodating. Highly recommended! </p>
+        
+                               <button class="button">View More</button>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                <div class="swiper-button-next  swiper-navBtn"></div>
+                <div class="swiper-button-prev  swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+        
+            </div>
+        </div>
+        <div class="kkkk" id="content-3">
+            <h1 class="head">Featured in</h1>
+            <div class="logos">
+                <div class="logos-slide">
+                    <img src="images/mathrubhumi.png" alt="Mathrubhumi">
+                    <img src="images/moneycontrol-logo-vector.png" alt="Moneycontrol">
+                    <img src="images/hindu.webp" alt="The Hindu">
+                    <img src="images/news.png" alt="News">
+                    <img src="images/IE.webp" alt="The Indian Express">
+                    <img src="images/book_my_show.png" alt="Book My Show">
+                    <img src="images/Economic Times.webp" alt="Book My Show">
+                    <img src="images/Inc42.webp" alt="Book My Show">
+                    <img src="images/betterindia.webp" alt="Book My Show">
+                    
+                </div>
+            </div>
+            <script>
+                var copy = document.querySelector(".logos-slide").cloneNode(true);
+                document.querySelector(".logos").appendChild(copy);
+            </script>
+        </div>
+
+        <footer-code></footer-code>
+
+            <!--JavaScript-->
+        <script>
+            document.getElementById('search-form').addEventListener('submit', function(event) {
+                    event.preventDefault(); 
+                    window.location.href = 'tariff.html'; 
+                });
+        </script>
+        <script src="swiper-bundle.min.js"></script>
+        <script src="cardSlider.js"></script> 
+</body>
+</html>

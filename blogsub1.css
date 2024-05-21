@@ -1,0 +1,81 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border:none;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    
+}
+.imageholder{
+    background-image: url("assets/keralaroad.jpg");
+    min-height: 100dvh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.imageholder h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 35%;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+.content{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content p{
+    padding-left: 17%;
+    padding-right: 17%;
+    font-size: 19px;
+    color: #4e4c4c;
+    text-align: justify;
+}
+.content h2{
+    padding-left: 17%;
+    padding-right: 17%;
+    color: rgb(48, 215, 48);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.content h3{
+    padding-left: 17%;
+    padding-right: 17%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(55, 53, 53);
+}
+.content img{
+    padding-left: 28%;
+    padding-right: 17%;
+    width: 700px;
+    height: auto;
+}
+.content h4{
+    padding-left: 17%;
+    padding-right: 17%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0); 
+    font-size: 30px;  
+}
+.content h5{
+    padding-left: 17%;
+    padding-right: 17%;
+    font-size: 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.authorP{
+    margin-left: 17%;
+    border-top: 1px solid black;
+    width: 32%;
+}
+::-webkit-scrollbar{
+    display: none;
+}

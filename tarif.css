@@ -1,0 +1,102 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; 
+    background-color: #fafafa; 
+    margin: 0;
+    padding: 0;
+}
+td {
+    padding: 40px;
+}
+.booking-container {
+    background-color: #ffffff; 
+    padding: 25px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15); 
+    text-align: center;
+    border-radius: 10px; 
+    transition: transform 0.2s; 
+}
+.booking-container:hover {
+    transform: translateY(-5px); 
+}
+.booking-container h1 {
+    color: #444; 
+    font-size: 1.5em; 
+    margin-bottom: 15px; 
+}
+.booking-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid #ccc; 
+}
+.tab {
+    background-color: #f0f0f0; 
+    border: none;
+    padding: 12px; 
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+.tab:hover {
+    background-color: #e0e0e0;
+}
+.pricing-info {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.time-slot p, .extras p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.time-slot h2, .extras h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.book-now {
+    background-color: #ffcc00; 
+    border: none;
+    padding: 15px 30px; 
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    transition: opacity 0.3s; 
+}
+.book-now:hover {
+    opacity: 0.8; 
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.vehicle-image {
+    display: block;
+    width: 200px; 
+    height: auto; 
+}
+
+.image-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75); 
+    color: #fff;
+    padding: 5px 10px;
+    display: none; 
+}
+
+.image-container:hover .image-description {
+    display: block; 
+}

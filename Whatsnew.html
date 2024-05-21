@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's New</title>
+    <link rel="stylesheet" href="whatsnew.css">
+    <script src="https://kit.fontawesome.com/eda3a1521a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="sidebar.css">
+
+    <script src="navbar.js"></script>
+    <script src="openNav.js"></script>
+    <script src="footer.js"></script>
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <nav-bar></nav-bar>
+    <div class="cont1">
+        <h1>Inter-city Travel </h1>
+        <h1 id="line">s</h1>
+    <div class="search-container">
+        <span id="header-form">
+        <h2>Search your next ride</h2>
+      </span>
+        <form id="search-form">
+          <div class="form-group">
+            <h3>Pickup City</h3>
+            <div class="input-group">
+                <div class="input-field" id="namefield">
+                    <i class="fa-solid fa-location-dot"></i>
+                  <input type="text" id="name" placeholder="Pickup City" required>
+                </div>
+            <span id="pickup">
+            <input type="date" id="pickup-date">
+            <select  name="pickup-time" id="pickup-time" style="appearance: none; color: gray;">
+                <option value="" disabled selected>Time
+                <option value="time1">5:00 AM<hr>
+                <option value="time2">6:00 AM<hr>
+                <option value="time3">7:00 AM<hr>
+                <option value="time4">8:00 AM<hr>
+                <option value="time5">9:00 AM<hr>
+                <option value="time6">10:00 AM<hr>
+                <option value="time7">11:00 AM<hr>
+                <option value="time8">12:00 PM<hr>
+                <option value="time10">1:00 PM<hr>
+                <option value="time11">2:00 PM<hr>
+                <option value="time12">3:00 PM<hr>
+                <option value="time13">4:00 PM<hr>
+                <option value="time14">5:00 PM<hr>
+                <option value="time15">6:00 PM<hr>
+    
+                
+            </select>
+            </span>
+          </div>
+          <br>
+          <div class="form-group">
+            <h3>Dropoff City</h3>
+            <div class="input-group">
+                <div class="input-field" id="namefield">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" id="name" placeholder="Dropoff City" required>
+                </div>
+            <span id="dropoff">
+            <input type="date" id="dropoff-date">
+            <select name="dropoff-time" id="dropoff-time"  style="appearance: none; color: gray;">
+                <option value="" disabled selected>Time
+                <option value="time1">5:00 AM<hr>
+                <option value="time2">6:00 AM<hr>
+                <option value="time3">7:00 AM<hr>
+                <option value="time4">8:00 AM<hr>
+                <option value="time5">9:00 AM<hr>
+                <option value="time6">10:00 AM<hr>
+                <option value="time7">11:00 AM<hr>
+                <option value="time8">12:00 PM<hr>
+                <option value="time10">1:00 PM<hr>
+                <option value="time11">2:00 PM<hr>
+                <option value="time12">3:00 PM<hr>
+                <option value="time13">4:00 PM<hr>
+                <option value="time14">5:00 PM<hr>
+                <option value="time15">6:00 PM<hr>
+            </select>
+            </span>
+          </div>
+          <br>
+          <button type="submit" id="searchbtn">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+    <footer-code></footer-code>
+</body>
+</html>
